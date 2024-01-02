@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrator", "Integrator\Integrator.csproj", "{27A3359E-DA87-4986-B98A-5434A5D8B48B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6DA0A47-950F-4A86-BB89-55C870B66772}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrator.Generator", "Integrator.Generator\Integrator.Generator.csproj", "{160F4D6D-A99A-4F62-8C84-C10DD1574FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrator.TestGenerator", "Integrator.TestGenerator\Integrator.TestGenerator.csproj", "{C08EBCE6-B2C1-4327-9474-0EBAB6CA6A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A3359E-DA87-4986-B98A-5434A5D8B48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A3359E-DA87-4986-B98A-5434A5D8B48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A3359E-DA87-4986-B98A-5434A5D8B48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A3359E-DA87-4986-B98A-5434A5D8B48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160F4D6D-A99A-4F62-8C84-C10DD1574FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160F4D6D-A99A-4F62-8C84-C10DD1574FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160F4D6D-A99A-4F62-8C84-C10DD1574FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160F4D6D-A99A-4F62-8C84-C10DD1574FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08EBCE6-B2C1-4327-9474-0EBAB6CA6A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08EBCE6-B2C1-4327-9474-0EBAB6CA6A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08EBCE6-B2C1-4327-9474-0EBAB6CA6A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08EBCE6-B2C1-4327-9474-0EBAB6CA6A69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
